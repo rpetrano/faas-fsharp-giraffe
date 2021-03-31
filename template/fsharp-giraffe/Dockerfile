@@ -1,6 +1,6 @@
 FROM openfaas/of-watchdog:0.8.0 as watchdog
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as tester
+FROM mcr.microsoft.com/dotnet/sdk:5.0 as tester
 
 ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 
@@ -23,7 +23,7 @@ COPY .  .
 ENV ASPNETCORE_ENVIRONMENT Test
 RUN dotnet test ./function/tests/FunctionTests.fsproj
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as builder
+FROM mcr.microsoft.com/dotnet/sdk:5.0 as builder
 
 ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 
@@ -41,7 +41,7 @@ COPY .  .
 
 RUN dotnet publish -c release -o published
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim
 
 COPY --from=watchdog /fwatchdog /usr/bin/fwatchdog
 RUN chmod +x /usr/bin/fwatchdog
