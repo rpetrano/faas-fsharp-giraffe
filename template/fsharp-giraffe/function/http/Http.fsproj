@@ -16,20 +16,9 @@
     <PackageReference Include="Npgsql.FSharp" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\common\Common.fsproj" />
+    <Compile Include="Http.fs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FunctionHandler.fs"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="appsettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="appsettings.Production.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="appsettings.Staging.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <ProjectReference Include="..\src\Function.fsproj" />
   </ItemGroup>
 </Project>

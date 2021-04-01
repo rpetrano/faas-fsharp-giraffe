@@ -12,10 +12,12 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "root", "root.fsproj", "{7AD34839-41F1-4CDF-8C5D-469FD187E630}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{F4EC8DFA-FBD8-4466-BA9A-DCDA093DD1D2}"
-ProjectSection(SolutionItems) = preProject
-	Dockerfile = Dockerfile
-	template.yml = template.yml
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		template.yml = template.yml
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Http", "function\http\Http.fsproj", "{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,9 +68,22 @@ Global
 		{7AD34839-41F1-4CDF-8C5D-469FD187E630}.Release|x64.Build.0 = Release|Any CPU
 		{7AD34839-41F1-4CDF-8C5D-469FD187E630}.Release|x86.ActiveCfg = Release|Any CPU
 		{7AD34839-41F1-4CDF-8C5D-469FD187E630}.Release|x86.Build.0 = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x64.Build.0 = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC1EC029-82DD-425E-B25B-EFD87EB5D529} = {FEE1DC04-7B37-453E-B351-23B1D634031A}
 		{6F46F28B-C3A0-4186-99C2-296EB202A1B4} = {FEE1DC04-7B37-453E-B351-23B1D634031A}
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2} = {FEE1DC04-7B37-453E-B351-23B1D634031A}
 	EndGlobalSection
 EndGlobal

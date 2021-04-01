@@ -5,7 +5,7 @@ open Microsoft.AspNetCore.Hosting
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
 open Giraffe
-open Function
+open FunctionHttp
 
 [<EntryPoint>]
 let main _ =

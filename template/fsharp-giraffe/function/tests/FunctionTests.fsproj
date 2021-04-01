@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-        <ProjectReference Include="..\src\Function.fsproj" />
-    </ItemGroup>
-
+    <ProjectReference Include="..\http\Http.fsproj" />
+    <ProjectReference Include="..\src\Function.fsproj" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FSharp.Core" Version="5.0.1" />
     <PackageReference Include="FSharp.Data" Version="4.0.1" />

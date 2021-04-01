@@ -13,7 +13,7 @@ open System.IO
 open HttpFunc
 open Fixtures
 open FSharp.Control.Tasks.V2.ContextInsensitive
-open Function
+open FunctionHttp
 
 let createHost () =
     WebHostBuilder().UseContentRoot(Directory.GetCurrentDirectory()).UseEnvironment("Test")

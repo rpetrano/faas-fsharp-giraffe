@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
     <ItemGroup>
-        <ProjectReference Include="function\src\Function.fsproj" />
+        <ProjectReference Include="function\http\Http.fsproj" />
     </ItemGroup>
 
     <PropertyGroup>
