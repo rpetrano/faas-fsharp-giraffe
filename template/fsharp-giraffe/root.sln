@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{F4EC8DFA-F
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Http", "function\http\Http.fsproj", "{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Common", "function\common\Common.fsproj", "{EFAA888D-13E1-40BC-8351-1F7A5223BD76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,19 @@ Global
 		{7AD34839-41F1-4CDF-8C5D-469FD187E630}.Release|x86.ActiveCfg = Release|Any CPU
 		{7AD34839-41F1-4CDF-8C5D-469FD187E630}.Release|x86.Build.0 = Release|Any CPU
 		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x64.Build.0 = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Release|x86.Build.0 = Release|Any CPU
+
+		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.Ac66tiveCfg = Debug|Any CPU
 		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{DF3C04F2-623C-4335-A565-CDC9ED9A36C2}.Debug|x64.Build.0 = Debug|Any CPU
